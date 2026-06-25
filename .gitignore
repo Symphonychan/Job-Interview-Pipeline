@@ -1,0 +1,42 @@
+# Virtual environments
+.venv/
+venv/
+
+# Environment variables
+.env
+.env.*
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Type checker / linter cache
+.mypy_cache/
+.ruff_cache/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Secrets
+credentials.json
+secrets.json
